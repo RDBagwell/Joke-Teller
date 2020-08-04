@@ -4,7 +4,7 @@ const audioElement = document.getElementById('audio');
 
 function tellMe(joke){
         VoiceRSS.speech({
-        key: 'ac6e132a083d4253aa07ef00757b3831',
+        key: '',
         src: joke,
         hl: 'en-us',
         v: 'Mary',
